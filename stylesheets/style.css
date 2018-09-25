@@ -1,0 +1,33 @@
+.largediv{
+	width: 40%;
+	height:100px;
+	background-color: green;
+	border:1px solid black;
+	margin: 25px;
+}
+
+#one{
+	margin: auto;
+
+}
+
+#two,#three{
+	position: relative;
+	top:50px;
+	display:inline-block;
+}
+
+#four{
+	position: relative;
+	top: 100px;
+}
+#smalldiv{
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	border:1px solid black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
